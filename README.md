@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📚 Turn The Page — Used & Vintage Bookstore
 
 > *"A reader lives a thousand lives before he dies."* — George R.R. Martin
@@ -175,7 +174,3 @@ MIT — free to use, remix, and build upon.
 <p align="center">
   <em>Built with care for readers who love the hunt.</em>
 </p>
-=======
-# turn-the-page
-A fictional used bookstore website built with React and Tailwind CSS
->>>>>>> 5c7115a6f44b44d232044b1c34fe1697d8e45027
