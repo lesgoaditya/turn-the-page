@@ -1,0 +1,23 @@
+```
+**Role & Goal:** Act as a senior full-stack developer and UI/UX designer. Build a fully functional, responsive website for a **Used & Vintage Bookstore** named "Turn The Page."
+
+**Visual Design Instructions (The "Stylish" Look):**
+- **Vibe:** "Warm Brutalism" or "Editorial Cozy." Mix raw, tactile textures (like recycled paper) with sharp, modern typography.
+- **Color Palette:** Deep forest green, cream/off-white, a pop of faded crimson red for buttons, and charcoal black for text.
+- **Typography:** Use a highly readable serif for body text (like *Cormorant Garamond*) and a clean, bold sans-serif for headlines (like *Inter* or *Space Grotesk*).
+- **Grid:** Use an asymmetrical or masonry grid for the book listings. On hover, book covers should have a slight 3D tilt or a zoom effect with a smooth shadow transition.
+- **Hero Section:** A full-width animated background of flipping paper pages or a slow-zoom of a vintage library, with a headline that says "Stories with a History."
+
+**Content & Feature Requirements (The Used Book Store Logic):**
+1. **Book Cards:** Each card must show: Title, Author, Price, and a **Condition Badge** (e.g., "Rare Find," "Like New," or "Well-Loved").
+2. **"Blind Date" Section:** Create a specific row called "Pick a Mystery." These books have no title visible, just a description like "Genre: Sci-Fi / Spine faded but pages perfect."
+3. **Store Policies:** Include a floating sidebar or footer section explaining "Carbon Neutral Shipping" and "Buyback Program" (users can sell their old books back).
+4. **Filtering:** Users must be able to filter by Genre, Condition, and Price.
+5. **Mock Data:** Populate the store with 8-12 example used books (e.g., *Dune* (Good), *1984* (Fair), *The Great Gatsby* (Collector's), etc.).
+
+**Functional Requirements:**
+- Built with React, Tailwind CSS, and Node.js (standard Replit stack).
+- Mobile responsive (must work perfectly on a phone screen).
+- **Dark Mode Toggle:** Add a sun/moon toggle in the header that switches between the "Warm" theme and a "Midnight Reader" theme (dark blue/gold).
+- **Add to Cart:** Front-end cart logic (no payment gateway needed for the prototype, just a visual cart drawer that stores items).
+```

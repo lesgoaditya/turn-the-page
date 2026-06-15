@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Turn The Page Bookstore"
+version = "1.0.0"
+id = "artifacts/turn-the-page"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22326
+
+[services.development]
+run = "pnpm --filter @workspace/turn-the-page run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/turn-the-page", "run", "build" ]
+publicDir = "artifacts/turn-the-page/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22326"
+BASE_PATH = "/"
